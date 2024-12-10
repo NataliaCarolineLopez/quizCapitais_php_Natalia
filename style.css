@@ -8,7 +8,7 @@
 /* Estilo global da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa; /* Cor suave e refrescante, tema relacionado à Geografia */
+    background-size: cover;
     color: #333;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
 
 /* Container principal (para o início, final e parte do jogo) */
 .container {
-    background: linear-gradient(to right, #81d4fa, #4fc3f7); /* Gradiente azul que remete ao céu */
+    background: linear-gradient(to right, #FFE6F3, #FFD7D7); /* Gradiente azul que remete ao céu */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
@@ -33,12 +33,12 @@ body {
 h1 {
     font-weight: bolder;
     font-size: 3rem;
-    color: #0277bd;
+    color: #181811;
 }
 
 h3 {
     font-size: 2.5rem;
-    color: #0277bd;
+    color: #181811;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ h3 {
 hr {
     border: 0;
     height: 2px;
-    background: #0277bd;
+    background: #8B4A8C;
     margin: 20px 0;
 }
 
@@ -55,19 +55,19 @@ hr {
 h5, h4 {
     font-size: 1.4rem;
     font-weight: bold;
-    color: #01579b;
+    color: #6e88df;
 }
 
 /* Destacar a quantidade de questões */
 h5 strong {
     font-size: 1.6rem;
-    color: #0288d1;
+    color: #59b3d9;
 }
 
 /* Destaque para o nome do país */
 h4 strong {
     font-size: 1.8rem;
-    color: #f57c00; /* Cor vibrante de vermelho para o nome do país */
+    color: #000000; /* Cor vibrante de vermelho para o nome do país */
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -78,7 +78,7 @@ h4 strong {
 div h3 {
     font-size: 1.6rem;
     background-color: #ffffff;
-    color: #0277bd;
+    color: #c36ebc;
     padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
@@ -88,7 +88,7 @@ div h3 {
 
 /* Efeito ao passar o mouse sobre as alternativas */
 div h3:hover {
-    background-color: #0288d1;
+    background-color: #ed71ce;
     color: white;
     transform: scale(1.05);
 }
@@ -96,7 +96,7 @@ div h3:hover {
 /* Estilo para o botão "Desistir" */
 a {
     font-size: 1.2rem;
-    color: #ffb300;
+    color: #181811;
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
@@ -106,14 +106,14 @@ a {
 
 /* Efeito ao passar o mouse sobre o link "Desistir" */
 a:hover {
-    color: #f57c00;
+    color: #8B4A8C;
 }
 
 /* Estilo para a parte final do jogo */
 
 /* Resultados do jogo */
 .result-container {
-    background: linear-gradient(to right, #ffeb3b, #ff9800); /* Gradiente de amarelo e laranja */
+    background: linear-gradient(to right, #ffd5d5, #ff3f85); /* Gradiente de amarelo e laranja */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
@@ -140,8 +140,8 @@ a:hover {
 
 /* Botão para jogar novamente */
 .result-container .btn-secondary {
-    background-color: #0288d1;
-    color: white;
+    background-color: #fc80d1;
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     padding: 15px;
     border-radius: 5px;
@@ -154,7 +154,7 @@ a:hover {
 
 /* Efeito ao passar o mouse sobre o botão "Jogar novamente" */
 .result-container .btn-secondary:hover {
-    background-color: #01579b;
+    background-color: #aad5f7;
     transform: scale(1.05);
 }
 
@@ -194,7 +194,7 @@ a:hover {
 
 /* Estilo do botão no formulário de início */
 .btn {
-    background-color: #ffb300; /* Cor vibrante de amarelo */
+    background-color: #de187b; /* Cor vibrante de amarelo */
     color: white;
     font-size: 1.2rem;
     padding: 15px;
@@ -206,6 +206,6 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #f57c00;
+    background-color: #f437b2;
     transform: scale(1.05);
 }
